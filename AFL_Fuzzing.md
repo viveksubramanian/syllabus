@@ -14,6 +14,7 @@ The archives contain highly obfuscated c and java code, e.g., :
 
 In ReachabilityRERS2016/Problem10/Problem10.c
 
+```C++
 ...
 void errorCheck() {
 	    if(((a90 == 9 && a160 == 8) && a56 == 10)){
@@ -84,6 +85,7 @@ int main()
         calculate_output(input);
     }
 }
+```
 
 Good luck understanding the logic underlying this code... All we know is that it is a simple state machine, which has been obfuscated to make analysis harder. In case you are interested in obfuscation: check out Tigress: http://tigress.cs.arizona.edu. We of course use automated tools in order to try to understand it!
 
@@ -93,20 +95,25 @@ The c code will not compile as given, we need to make a few changes, and some mo
 
 First, replace:
 
+```C++
     extern void __VERIFIER_error(int);
 (line 6)
+```
 
 with:
-                   
+   
+```C++
 void __VERIFIER_error(int i) {
     fprintf(stderr, "error_%d ", i);
     assert(0);
 }
+```
 
 The assert causes a crash, which is what we want to find using AFL.
 
 Then, replace:
 
+```C++
 int main()
 {
     // main i/o-loop
@@ -121,9 +128,11 @@ int main()
         calculate_output(input);
     }
 }
+```
 
 with:
 
+```C++
 int main()
 {
 	// main i/o-loop
@@ -137,14 +146,16 @@ int main()
 		calculate_output(input);
 	}
 }
+```
 
 This avoids a hang in the scanf function created when the input ends.
 
 Now all we need to run afl is to create two directories: tests and findings. In tests you have to provide AFL with some example inputs, makes sure that you give an integer with a space or new line. For instance, I have the file 1.txt in the test directory, containing:
 
-
+```C++
 "1
 "
+```
 
 so a 1 with a new line.
 
@@ -171,6 +182,7 @@ cat id:000000,sig:06.src:000001,op:havoc,rep:2 | path_to_binary/a.out
 Gives in my case:
 
 ...
+
 error_29 ...
 
 Implying that error 29 is reachable.
