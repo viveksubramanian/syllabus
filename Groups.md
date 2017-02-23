@@ -35,4 +35,4 @@
 | 2/14/2017 23:29:59 | Jake Beinart            | 4646223  | j.s.beinart@student.tudelft.nl   | Ade Setyawan Sajim  | 4608232  | Pim van den Bogaerdt | 4215516  | No preference       | 14 | Testing |
 | 2/19/2017 14:15:05 | Owen Huang              | 4317459  | O.Huang@student.tudelft.nl       | Kin Lok Chow        | 4509447  |                      |          | No preference       | 15 | Testing |
 | 2/19/2017 16:45:27 | Jacco (Hermans)  Brandt | S1423290 | j.h.brandt@student.utwente.nl    | Wouter van der Zwan | 4019806  | Gerard van Alphen    | 4303512  | Reverse engineering | 16 | Testing |
-| 2/19/2017 20:30:23 | Jan-Gerrit Harms        | 4163400  | j.harms@student.tudelft.nl       | Jeffrey Steen       | s1193074 |                      |          | No preference       | 17 | Testing |
+| 2/19/2017 20:30:23 | Jan-Gerrit Harms        | 4163400  | j.harms@student.tudelft.nl       | Jeffrey Steen       | s1193074 | Priyanka radja |          | No preference       | 17 | Testing |
