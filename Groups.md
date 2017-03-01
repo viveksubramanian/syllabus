@@ -30,7 +30,7 @@
 | 2/14/2017 14:42:33 | Ines Duits              | s1876171 | i.duits@student.utwente.nl       | Côme du Crest       | s1874659 | Rashid Zamani        | s1869590 | Reverse engineering | 9  | Testing |
 | 2/14/2017 14:44:42 | Jeffrey Goderie         | 4006232  | C.J.m.goderie@student.tudelft.nl | David Bergvelt      | 4642457  | Tom Peeters          | 4176510  | No preference       | 10 | Testing |
 | 2/14/2017 14:52:43 | Kasper Wijburg          | s1322524 | k.m.wijburg@student.utwente.nl   | Arshad Ali          | s1869485 |                      |          | Reverse engineering | 11 | Testing |
-| 2/14/2017 15:06:01 | Lars Krombeen           | 4280709  | l.krombeen@student.tudelft.nl    | Jos Winter          | 4290356  | Remco de Vos         | 4313283  | Reverse engineering | 12 | Testing |
+| 2/14/2017 15:06:01 | Lars Krombeen           | 4280709  | l.krombeen@student.tudelft.nl    | Jos Winter          | 4290356  |Robin Sveningson        |   | Reverse engineering | 12 | Testing |
 | 2/14/2017 18:29:36 | Jens de Waard           | 4009215  | J.C.deWaard@student.tudelft.nl   | Bart Heemskerk      | 4143469  |                      |          | Testing             | 13 | Testing |
 | 2/14/2017 23:29:59 | Jake Beinart            | 4646223  | j.s.beinart@student.tudelft.nl   | Ade Setyawan Sajim  | 4608232  | Pim van den Bogaerdt | 4215516  | No preference       | 14 | Testing |
 | 2/19/2017 14:15:05 | Owen Huang              | 4317459  | O.Huang@student.tudelft.nl       | Kin Lok Chow        | 4509447  |                      |          | No preference       | 15 | Testing |
